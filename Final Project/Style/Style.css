@@ -1,0 +1,98 @@
+/* header section styles */
+
+.im{
+    display: flex;
+}
+.im img{
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+}
+.im .title1{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: xx-large;
+    
+}
+.T_content {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 45%;
+}
+
+.T_content button{
+    font-weight: bold;
+    font-family: sans-serif;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(0, 102, 255);
+    cursor: pointer;
+}
+
+.T_content .icon{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.T_content .cont{
+    margin-top: -20px;
+}
+.Content1{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
+/* Bike categories */
+.Bike_Categories a img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.Bike_Categories{
+    margin-left: 4.5%;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgba(128, 128, 128, 0.114);
+    border-radius: 50%;
+    transition: 0.7s;
+}
+
+.Bike_Categories:hover{
+    margin-left: 4.5%;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+
+
+.Bike_Categories h3{
+    text-align: center;
+    margin-top: 6px;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight:700;
+    color: rgb(143, 143, 143);
+}
+.All_category{
+    display: flex;
+}
+
+/* .Bike_Categories a img :hover{
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 20px solid rgb(255, 98, 0);
+
+} */
